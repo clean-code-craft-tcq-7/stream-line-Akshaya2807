@@ -3,7 +3,7 @@
 
 void TEST_CASE_01(){
   
-  BMSData_s sensorData_s;
+  //BMSData_s sensorData_s;
 
   sensorData_s.chargeRate_minvalue = 0;
   sensorData_s.chargeRate_maxvalue = 100;
