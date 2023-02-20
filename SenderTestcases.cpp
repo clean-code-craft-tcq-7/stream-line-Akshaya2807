@@ -1,5 +1,5 @@
 #include "Sender.h"
-#include "Sender.c"
+
 void TEST_CASE_01(){
   
   BMSData_s sensorData_s;
