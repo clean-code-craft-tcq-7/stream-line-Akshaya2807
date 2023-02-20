@@ -1,9 +1,6 @@
-#define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
-
-
+#include "Sender.h"
 #include "Sender.c"
-
-TEST_CASE("positive case: test1 - process input sensors value and send to receiver") {
+void TEST_CASE_01(){
   
   BMSData_s sensorData_s;
 
@@ -15,7 +12,7 @@ TEST_CASE("positive case: test1 - process input sensors value and send to receiv
   
   Main(sensorData_s);  
 }
-TEST_CASE("positive case: test2 - process input sensors value and send to receiver") {
+void TEST_CASE_02() {
   
   BMSData_s sensorData_s;
 
@@ -27,7 +24,7 @@ TEST_CASE("positive case: test2 - process input sensors value and send to receiv
   
   Main(sensorData_s);  
 }
-TEST_CASE("including negative values: test3 - process input sensors value and send to receiver") {
+void TEST_CASE_03(){
   
   BMSData_s sensorData_s;
 
@@ -39,7 +36,7 @@ TEST_CASE("including negative values: test3 - process input sensors value and se
   
   Main(sensorData_s);  
 }
-TEST_CASE("considring all values same : test4 - process input sensors value and send to receiver") {
+void TEST_CASE_04() {
   
   BMSData_s sensorData_s;
 
@@ -51,7 +48,7 @@ TEST_CASE("considring all values same : test4 - process input sensors value and 
   
   Main(sensorData_s);  
 }
-TEST_CASE("considring all negative values only : test5 - process input sensors value and send to receiver") {
+ void TEST_CASE_05() {
   
   BMSData_s sensorData_s;
 
