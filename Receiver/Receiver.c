@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <Receiver.h>
 #define NUMBER_OF_READINGS   50
-
-int create_sensor1_data();
-int Calculate_MaxMin_SensorData(int *sensor1Data[NUMBER_OF_READINGS]);
-int ReadSensorData1();
 
 int create_sensor1_data()
 {
